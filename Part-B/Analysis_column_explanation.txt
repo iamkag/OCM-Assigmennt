@@ -1,0 +1,28 @@
+* day: The date of the event.
+* device: The type of device used (e.g., mobile, desktop).
+* domain: The domain where the event occurred.
+* utm_campaign, utm_content, utm_medium, utm_source, utm_term: UTM parameters, often used for tracking the effectiveness of online marketing campaigns.
+* country: The country code of the user.
+* oeid: A unique event identifier.
+* Auction_start: The timestamp marking the beginning of the ad auction.
+* Auction_end: The timestamp marking the end of the ad auction. 
+* Auction_ttl: This represents the duration (usually in milliseconds) that the auction is open or valid.
+* Auction_id: A unique identifier for each ad auction. 
+* Ad_unit_code: A unique identifier for the specific ad unit that is being auctioned.
+* Bidder: The entity that is placing a bid in the auction.
+* Bidder_cpm: The bid value placed by the bidder, usually expressed in terms of cost per thousand impressions (CPM)
+* Bidder_start: The timestamp marking when the bidder entered or started participating in the auction. 
+* Bidder_end: The timestamp marking when the bidder's participation in the auction ended. 
+* Bidder_ttl: Similar to Auction_ttl, this represents the duration that the bidder's offer or bid is valid.
+* Bidder_is_after_timeout: A boolean flag indicating whether the bidder's response was received after the auction's Time to Live (ttl) had expired. 
+* Bidder_media_type: The type of media or ad format that the bidder is interested in placing, such as text, image, video, etc.
+* consent: Whether the user has given consent (True/False).
+* bidder_width, bidder_height: Dimensions related to the event, possibly ad bid sizes.
+* bidder_source: Source of the bidder.
+* bidder_status: Status of the bid (e.g., noBid, timeout).
+* bidder_deal_id: Deal ID related to the bid.
+* advertisers: Information about advertisers, if available.
+* subdomain: Subdomain where the event took place.
+* is_impression: Whether the event resulted in an impression (True/False).
+* refreshed: Indicates if the event was a result of refreshing the page or content (True/False).
+* os: Operating system of the device.
